@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nvb {
+    background-color: #1B2C34;
+    width: 100%;
+    height: 18vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ust {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    gap: 15px;
+    padding: 15px 0;
+    padding-right: 50px;
+}
+.alt{
+width: 100%;
+height: 60vh;
+}
+
+.inf {
+    display: flex;
+    font-size: 11px;
+    gap: 15px;
+}
+
+.inf span {
+    border-right: 1px solid gray;
+    height: 13px;
+}
+
+.icon{
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+.motors {
+    position: absolute;
+    left: 13%;
+    top: 9%;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    padding-right: 20%;
+    gap: 40px;
+}
+
+.icon2 {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    right: 33%;
+    top: 10%;
+    font-size: 24px;
+}
+
+.item {
+    position: absolute;
+    right: 16%;
+    top: 9%;
+    background-color: #FF9501;
+    width: 12%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+}
+.ustimg{
+display: flex;
+width: 28%;
+height: 7%;
+background-color: #1B2C34;
+color: rgb(245, 235, 235);
+justify-content: space-between;
+font-size: 17px;
+align-items: center;
+padding-right:3%;
+position: absolute;
+top: 46%;
+left: 11%;
+font-weight: bold;
+}
+.cars{
+width: 100%;
+height:60vh;
+}
+.find{
+background-color:#153E4D;
+height: 100%;
+width: 30%;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.altimg{
+background-color: #153E4D;
+width: 75%;
+height: 25%;
+font-size: 15px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: absolute;
+top: 53%;
+left: 11%;
+padding-bottom: 4.5%;
+}
+.select{
+width: 22%;
+height: 35%;
+padding: 0 15px;
+font-size: 15px;
+color: rgb(61, 59, 59);
+}
+.btn{
+background-color: #FF9501;
+width: 18%;
+height: 25%;
+color: white;
+font-size: 17px;
+text-align: center;
+position: absolute;
+right: 2%;
+top: 50%;
+border-radius: 5px;
+font-weight: bolder;
+}
+.swiper {
+    width: 70%;
+    height: 20vh;
+    position: relative;
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.latest{
+border-top: 4px solid #153E4D;
+width: 72%;
+margin: 0 auto;
+padding: 30px 0;
+}
+.latests{
+width: 72%;
+margin: 0 auto;
+padding: 30px 0;
+}
+.lasted{
+display: flex;
+justify-content: center;
+height: 51vh;
+gap: 2%;
+}
+.ad{
+display: flex;
+justify-content: space-between;
+margin: 7px 0;
+}
+.qiymet{
+background-color: #FF9501;
+height:1%;
+width: 25%;
+font-size: 14px;
+text-align: center;
+transform: skew(-5deg,0deg);
+}
+.infcar{
+display: flex;
+gap: 5%;
+color: rgb(170, 168, 168);
+font-size: 13px;
+border-bottom: 2px solid rgb(227, 227, 227);
+}
+.btn1{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 10vh;
+}
+.btnn{
+width: 16.5%;
+height: 58%;
+background-color: #FF9501;
+color: white;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+font-size: 14px;
+transition: 0.3s;
+}
+.btnn:hover{
+background-color: #f7b355;
+}
+.masinlar{
+    width: 100%;
+    height: 70vh;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+.ustm{
+display: flex;
+gap: 20px;
+}
+.altm{
+display: flex;
+gap: 20px;
+
+}
+.elan{
+width: 100%;
+height: 28vh;
+position: relative;
+}
+.lambo{
+width: 70%;
+display: flex;
+position: relative;
+margin: 0 14%;
+gap: 25px;
+}
+.qiymetl{
+background-color:#FF9502;
+height:50px;
+transform: skew(-5deg,0deg);
+color: white;
+width: 140px;
+}
+.qiymetll{
+    background-color:#FF9502;
+    height:50px;
+    transform: skew(-5deg,0deg);
+    color: white;
+    width: 140px;
+    margin: 0 30px;
+    padding: 0 20px;
+    }
+
+
+.bm{
+font-size: 10px;
+color: white;
+}
+.adqiymet{
+display: flex;
+justify-content: space-between;
+gap: 100px;
+}
+.lamboinf{
+position: absolute;
+display: flex;
+gap: 40px;
+left: 29%;
+top: 35%;
+}
+.ustl{
+display: flex;
+gap: 80px;
+}
+.lamboinf2{
+position: absolute;
+top: 68%;
+left: 28%;
+display: flex;
+gap: 8px;
+}
+.stwh{
+width: 115px;
+display: flex;
+justify-content: center;
+color:gray;
+font-size: 13px;
+align-items: center;
+border: 1px solid rgb(217, 208, 208);
+border-radius: 17px;
+}
+.lamboinf3{
+position: absolute;
+top: 98%;
+left: 28%;
+display: flex;
+gap: 10px;
+}
+.info1{
+width: 160px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: gray;
+font-size: 12px;
+border: 1px solid rgb(213, 206, 206);
+border-radius: 10px;
+gap: 10px;
+}
+.infol2{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 12px;
+    border: 1px solid rgb(213, 206, 206);
+    border-radius: 10px;
+    gap: 10px;
+}
+.end{
+margin-top: 40px;
+background-color: #1B2C34;
+width: 100%;
+height: 19vh;
+}
+.end1{
+padding: 25px 15%;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid rgb(68, 67, 67);
+}
+.navend{
+display: flex;
+gap: 30px;
+color: #727171;
+font-size: 14px;
+}
+.end2{
+padding: 20px 15%;
+display: flex;
+justify-content: space-between;
+color: #727171;
+font-size: 15px;
+}
+.navend2{
+    display: flex;
+    gap: 30px;
+    color: #727171;
+    font-size: 14px;
+    font-size: 19px;
+    }
+.reklam{
+position: absolute;
+right: 15%;
+top: 285%;
+}
+.reklam2{
+    position: absolute;
+    right: 15%;
+    top: 335%;
+    }
+    .inventory{
+color: white;
+text-decoration: none;
+    }
+    .swiper-wrapper a{
+        color:  gray;
+    }
